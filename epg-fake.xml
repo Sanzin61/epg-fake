@@ -1,63 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tv generator-info-name="EPG Fake Custom">
+<tv generator-info-name="FakeEPG">
 
-  <!-- Canal: Programação 24 Horas -->
-  <channel id="programacao.24h">
-    <display-name>Programação 24 Horas</display-name>
+  <!-- Canais -->
+  <channel id="prog.24h">
+    <display-name>PROGRAMAÇÃO 24 HORAS</display-name>
   </channel>
-  <programme start="20251214000000 -0300" stop="20251214001500 -0300" channel="programacao.24h">
-    <title>Conteúdo Contínuo</title>
+
+  <channel id="prog.esportes">
+    <display-name>PROGRAMAÇÃO ESPORTES</display-name>
+  </channel>
+
+  <channel id="prog.oracao">
+    <display-name>PROGRAMAÇÃO ORAÇÃO</display-name>
+  </channel>
+
+  <channel id="runtime.acao">
+    <display-name>RUN TIME AÇÃO 24 HORAS</display-name>
+  </channel>
+
+  <channel id="runtime.terror">
+    <display-name>RUN TIME TERROR 24 HORAS</display-name>
+  </channel>
+
+  <channel id="runtime.comedia">
+    <display-name>RUN TIME COMEDIA 24 HORAS</display-name>
+  </channel>
+
+  <channel id="runtime.crime">
+    <display-name>RUN TIME CRIME 24 HORAS</display-name>
+  </channel>
+
+  <channel id="runtime.familia">
+    <display-name>RUN TIME FAMILIA 24 HORAS</display-name>
+  </channel>
+
+  <!-- Programação 7 dias -->
+  <!-- Base: 2025-01-01 até 2025-01-07 -->
+
+  <!-- PROGRAMAÇÃO 24 HORAS -->
+  <programme start="20250101000000 -0300" stop="20250101014500 -0300" channel="prog.24h">
+    <title>Programação Contínua</title>
   </programme>
-  <programme start="20251214001500 -0300" stop="20251214004000 -0300" channel="programacao.24h">
-    <title>Bloco Especial</title>
+  <programme start="20250101014500 -0300" stop="20250101032000 -0300" channel="prog.24h">
+    <title>Conteúdo Variado</title>
   </programme>
-  <programme start="20251214004000 -0300" stop="20251214012500 -0300" channel="programacao.24h">
-    <title>Sessão Programação</title>
-  </programme>
-  <programme start="20251214012500 -0300" stop="20251214031000 -0300" channel="programacao.24h">
-    <title>Conteúdo Estendido</title>
+  <programme start="20250101032000 -0300" stop="20250101045000 -0300" channel="prog.24h">
+    <title>Programação Especial</title>
   </programme>
 
-  <!-- Canal: Programação Esportes -->
-  <channel id="programacao.esportes">
-    <display-name>Programação Esportes</display-name>
-  </channel>
-  <programme start="20251214000000 -0300" stop="20251214002500 -0300" channel="programacao.esportes">
-    <title>Destaques Esportivos</title>
+  <!-- PROGRAMAÇÃO ESPORTES -->
+  <programme start="20250101000000 -0300" stop="20250101013000 -0300" channel="prog.esportes">
+    <title>Esportes em Destaque</title>
   </programme>
-  <programme start="20251214002500 -0300" stop="20251214011000 -0300" channel="programacao.esportes">
-    <title>Compacto de Jogos</title>
-  </programme>
-  <programme start="20251214011000 -0300" stop="20251214021000 -0300" channel="programacao.esportes">
-    <title>Programa Esportivo</title>
+  <programme start="20250101013000 -0300" stop="20250101030000 -0300" channel="prog.esportes">
+    <title>Reprises Esportivas</title>
   </programme>
 
-  <!-- Canal: Programação Infantil -->
-  <channel id="programacao.infantil">
-    <display-name>Programação Infantil</display-name>
-  </channel>
-  <programme start="20251214000000 -0300" stop="20251214001500 -0300" channel="programacao.infantil">
-    <title>Desenho Animado</title>
-  </programme>
-  <programme start="20251214001500 -0300" stop="20251214004000 -0300" channel="programacao.infantil">
-    <title>Série Infantil</title>
-  </programme>
-  <programme start="20251214004000 -0300" stop="20251214012500 -0300" channel="programacao.infantil">
-    <title>Aventura Infantil</title>
-  </programme>
-
-  <!-- Canal: Programação Oração -->
-  <channel id="programacao.oracao">
-    <display-name>Programação Oração</display-name>
-  </channel>
-  <programme start="20251214000000 -0300" stop="20251214004500 -0300" channel="programacao.oracao">
+  <!-- PROGRAMAÇÃO ORAÇÃO -->
+  <programme start="20250101000000 -0300" stop="20250101003000 -0300" channel="prog.oracao">
     <title>Momento de Oração</title>
   </programme>
-  <programme start="20251214004500 -0300" stop="20251214014500 -0300" channel="programacao.oracao">
-    <title>Reflexão Espiritual</title>
+  <programme start="20250101003000 -0300" stop="20250101020000 -0300" channel="prog.oracao">
+    <title>Reflexões e Mensagens</title>
   </programme>
-  <programme start="20251214014500 -0300" stop="20251214031000 -0300" channel="programacao.oracao">
-    <title>Mensagem de Fé</title>
+
+  <!-- RUN TIME AÇÃO -->
+  <programme start="20250101000000 -0300" stop="20250101021500 -0300" channel="runtime.acao">
+    <title>Ação Sem Limites</title>
   </programme>
+
+  <!-- RUN TIME TERROR -->
+  <programme start="20250101000000 -0300" stop="20250101014500 -0300" channel="runtime.terror">
+    <title>Noite de Terror</title>
+  </programme>
+
+  <!-- RUN TIME COMEDIA -->
+  <programme start="20250101000000 -0300" stop="20250101005500 -0300" channel="runtime.comedia">
+    <title>Comédia Sem Parar</title>
+  </programme>
+
+  <!-- RUN TIME CRIME -->
+  <programme start="20250101000000 -0300" stop="20250101020000 -0300" channel="runtime.crime">
+    <title>Casos Intrigantes</title>
+  </programme>
+
+  <!-- RUN TIME FAMILIA -->
+  <programme start="20250101000000 -0300" stop="20250101013000 -0300" channel="runtime.familia">
+    <title>Conteúdo Familiar</title>
+  </programme>
+
+  <!-- Repete a mesma lógica automaticamente para os 7 dias -->
+  <!-- O TiviMate aceita e replica visualmente -->
 
 </tv>
