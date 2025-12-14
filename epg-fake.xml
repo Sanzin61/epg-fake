@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tv generator-info-name="EPG Fake Custom">
+
+  <!-- Canal: Programação 24 Horas -->
+  <channel id="programacao.24h">
+    <display-name>Programação 24 Horas</display-name>
+  </channel>
+  <programme start="20251214000000 -0300" stop="20251214001500 -0300" channel="programacao.24h">
+    <title>Conteúdo Contínuo</title>
+  </programme>
+  <programme start="20251214001500 -0300" stop="20251214004000 -0300" channel="programacao.24h">
+    <title>Bloco Especial</title>
+  </programme>
+  <programme start="20251214004000 -0300" stop="20251214012500 -0300" channel="programacao.24h">
+    <title>Sessão Programação</title>
+  </programme>
+  <programme start="20251214012500 -0300" stop="20251214031000 -0300" channel="programacao.24h">
+    <title>Conteúdo Estendido</title>
+  </programme>
+
+  <!-- Canal: Programação Esportes -->
+  <channel id="programacao.esportes">
+    <display-name>Programação Esportes</display-name>
+  </channel>
+  <programme start="20251214000000 -0300" stop="20251214002500 -0300" channel="programacao.esportes">
+    <title>Destaques Esportivos</title>
+  </programme>
+  <programme start="20251214002500 -0300" stop="20251214011000 -0300" channel="programacao.esportes">
+    <title>Compacto de Jogos</title>
+  </programme>
+  <programme start="20251214011000 -0300" stop="20251214021000 -0300" channel="programacao.esportes">
+    <title>Programa Esportivo</title>
+  </programme>
+
+  <!-- Canal: Programação Infantil -->
+  <channel id="programacao.infantil">
+    <display-name>Programação Infantil</display-name>
+  </channel>
+  <programme start="20251214000000 -0300" stop="20251214001500 -0300" channel="programacao.infantil">
+    <title>Desenho Animado</title>
+  </programme>
+  <programme start="20251214001500 -0300" stop="20251214004000 -0300" channel="programacao.infantil">
+    <title>Série Infantil</title>
+  </programme>
+  <programme start="20251214004000 -0300" stop="20251214012500 -0300" channel="programacao.infantil">
+    <title>Aventura Infantil</title>
+  </programme>
+
+  <!-- Canal: Programação Oração -->
+  <channel id="programacao.oracao">
+    <display-name>Programação Oração</display-name>
+  </channel>
+  <programme start="20251214000000 -0300" stop="20251214004500 -0300" channel="programacao.oracao">
+    <title>Momento de Oração</title>
+  </programme>
+  <programme start="20251214004500 -0300" stop="20251214014500 -0300" channel="programacao.oracao">
+    <title>Reflexão Espiritual</title>
+  </programme>
+  <programme start="20251214014500 -0300" stop="20251214031000 -0300" channel="programacao.oracao">
+    <title>Mensagem de Fé</title>
+  </programme>
+
+</tv>
